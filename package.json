@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "webpack-dev-server --mode development",
+		"start": "webpack-dev-server",
 		"build": "npm run delete:build && webpack --mode production",
 		"delete:build": "rimraf build"
 	},
