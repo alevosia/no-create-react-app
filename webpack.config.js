@@ -32,5 +32,10 @@ module.exports = {
             filename: 'static/css/' + '[name].[hash].css',
             chunkFilename: 'static/css/' + '[id].[hash].css',
         })
-    ]
+    ],
+    devServer: {
+        port: 3000,
+        open: true,
+        compress: true,
+    }
 }
